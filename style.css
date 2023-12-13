@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: Nexa;
+    src: url(fonts/Nexa-ExtraLight.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(135deg, #0000ff85, white);
+    background-attachment: fixed;
+}
+
+.container {
+display: flex;
+background-color: #3498db;
+justify-content: space-between;
+}
+
+.box1 {
+width: auto;
+height: auto;
+border-radius: 8px;
+margin: 5px;
+padding: 5px;
+text-align: center;
+}
+
+.box2 {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    margin: 5px;
+    padding-top: 9px;
+    text-align: center;
+    font-family: Nexa;
+    font-weight: bold;
+    color: white;
+}
+
+.box3 {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.imgrs {
+    width: 30px;
+    padding-left: 5px;
+}
+
+nav {
+    background-color: #2980b9;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-family: 'Outfit';
+padding: 5px;
+}
+
+.painelprincipal {
+    background-color: white;
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 2.5em;
+    font-weight: bold;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+    padding: 5px;
+    height: 350px;
+}
+
+.imgp {
+    margin-top: 20px;
+}
+
+.anuncio {
+    display: flex;
+    gap: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.anuncie {
+background-color: white;
+width: 170px;
+height: 100px;
+box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+border-radius: 20px;
+}
+
+.anuncieimg {
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 160px;
+    height: 90px;
+}
+
+main {
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+    padding: 1px;
+}
+
+.last-results > h1{
+    background-color:#dcdcdc;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Outfit';
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.last-results > h2 {
+    background-color: #4e6fff49;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Outfit';
+    font-size: 1em;
+    width: 180px;
+    margin: auto;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.jogos {
+display: flex;
+gap: 2px;
+flex-wrap: wrap;
+font-family: 'Outfit';
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: 10px;
+}
+
+.boxx1 {
+border-right: 1px solid rgba(0, 0, 0, 0.233);
+border-left: 1px solid rgba(0, 0, 0, 0.233);
+width: 150px;
+height: 70px;
+text-align: center;
+
+}
+
+    .jogo{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .partida{
+        font-size: 0.9em;
+    }
+
+    .dataplay {
+        font-size: 0.7em;
+    }
+
+.boxx2 {
+border-right: 1px solid rgba(0, 0, 0, 0.233);
+width: 150px;
+height: 70px;
+text-align: center;
+}
+
+.boxx3 {
+border-right: 1px solid rgba(0, 0, 0, 0.233);
+border-left: 1px solid rgba(0, 0, 0, 0.233);
+width: 150px;
+height: 70px;
+text-align: center;
+}
+
+.container2 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-family: 'Outfit';
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid black;
+}
+
+.tabela {
+margin: 20px;
+background-color: #dcdcdc;
+width: 400px;
+height: auto;
+padding: 5px;
+text-align: center;
+border-radius: 8px;
+}
+
+nav.2 {
+    margin: 0px;
+}
+
+nav.2 > a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+.tabeltitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.colocacao {
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    font-family: 'Outfit';
+    text-align: center;
+}
+
+
+
+table {
+    width: 100%;
+    max-width: 400px;
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+@media (max-width: 400px) {
+    th, td {
+        font-size: 12px;
+    }
+}
+
+.construcao {
+    background-color: white;
+    text-align: center;
+    font-family: 'Outfit';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
