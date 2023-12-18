@@ -75,11 +75,7 @@ padding: 5px;
 
 .painelprincipal {
     background-color: white;
-    text-align: center;
-    font-family: 'Outfit';
-    font-size: 2.5em;
-    font-weight: bold;
-    max-width: 800px;
+    max-width: 650px;
     margin: auto;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
     padding: 5px;
@@ -87,7 +83,6 @@ padding: 5px;
 }
 
 .imgp {
-    margin-top: 20px;
 }
 
 .anuncio {
@@ -189,7 +184,6 @@ text-align: center;
 
 .boxx3 {
 border-right: 1px solid rgba(0, 0, 0, 0.233);
-border-left: 1px solid rgba(0, 0, 0, 0.233);
 width: 150px;
 height: 70px;
 text-align: center;
@@ -243,8 +237,6 @@ footer {
     font-family: 'Outfit';
     text-align: center;
 }
-
-
 
 table {
     width: 100%;
