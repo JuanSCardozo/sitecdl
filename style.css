@@ -212,6 +212,18 @@ iframe {
     border: 1px solid rgba(0, 0, 0, 0.24);
 }
 
+.notice1 {
+    background-color: #dcdcdc;
+    width: 400px;
+}
+
+.imgnotice {
+    background-color: chartreuse;
+}
+
+.descnotice {
+    background-color: blueviolet;
+}
 
 
 
